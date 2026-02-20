@@ -27,7 +27,7 @@ import contextlib
 
 from .process_sql import get_schema, Schema,get_sql, get_sql_equivalencies
 # from .esmp_orig import get_sql as get_sql_orig
-# from .exec_eval import eval_exec_match
+from .exec_eval import eval_exec_match
 
 
 CLAUSE_KEYWORDS = ('select', 'from', 'where', 'group', 'order', 'limit', 'intersect', 'union', 'except')
